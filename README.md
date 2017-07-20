@@ -9,7 +9,7 @@ the *Esios* platform (*Sistema de información del operador del sistema*).
 
 * Installation
 
-        composer install pablogic/esios
+        composer require pablogic/esios
 
         
 * Dependencies
