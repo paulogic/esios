@@ -1,0 +1,30 @@
+{
+    "name": "pablogic/esios",
+    "description": "Access library to Esios API",
+    "keywords": ["Esios","e.sios","PHP"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pablo Lorenzo",
+            "email": "pablo.lorenzo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=5.7",
+        "monolog/monolog": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Esios\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "Esios\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+/nbproject/
+/vendor/
+logs/
+/coverage/
+bitbucket-pipelines.yml
+.DS_Store
+composer.lock

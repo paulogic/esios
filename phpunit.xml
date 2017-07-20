@@ -1,0 +1,21 @@
+<phpunit 
+    colors="true">
+    <groups>
+        <exclude>
+            <group>onlinecheck</group>
+        </exclude>
+    </groups>
+    <testsuites>
+        <testsuite name="Esios test suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+       <env name="token" value="TOKEN"/>
+    </php>
+    <filter>
+     <whitelist processUncoveredFilesFromWhitelist="no">
+       <directory suffix=".php">src/</directory>
+     </whitelist>
+   </filter>
+</phpunit>
