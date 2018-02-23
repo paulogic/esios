@@ -1,5 +1,5 @@
 {
-    "name": "pablogic/esios",
+    "name": "paulogic/esios",
     "description": "Access library to Esios API",
     "keywords": ["Esios","e.sios","PHP"],
     "type": "library",
